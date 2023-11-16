@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# BlockSmith Consulting Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the official website of BlockSmith Consulting, LLC! This site is designed to provide information about our company, showcase our expertise, and offer insights into the innovative software solutions we bring to businesses.
 
-## Available Scripts
+## About BlockSmith Consulting
 
-In the project directory, you can run:
+BlockSmith Consulting, LLC is a leading software consulting company that collaborates closely with organizations to understand their unique vision, objectives, and needs. Our expert team of software consultants, developers, and strategists craft innovative software solutions that align with your business strategies. We provide end-to-end software consulting services from concept to implementation with a user-centric approach, ensuring seamless communication, transparent project management, and timely delivery.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Services:** Explore our comprehensive range of software consulting services, from concept ideation to implementation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Portfolio:** Dive into our portfolio to see examples of successful projects we've delivered to satisfied clients.
 
-### `npm test`
+- **Team:** Meet the talented individuals behind BlockSmith Consulting who make it all possible.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Contact:** Reach out to us for inquiries, collaborations, or to discuss how we can help your business thrive through software solutions.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To explore our website, simply visit [blocksmithconsulting.com](https://www.blocksmithconsulting.com).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We welcome contributions and feedback. If you have suggestions, issues, or want to collaborate, feel free to open an issue or submit a pull request.
 
-### `npm run eject`
+## Support
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+For any questions or support inquiries, please contact our team at [kenneth.averna@blocksmithconsulting.com](mailto:kenneth.averna@blocksmithconsulting.com).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This website is licensed under the [MIT License](LICENSE).
