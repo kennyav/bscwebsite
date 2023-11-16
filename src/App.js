@@ -3,7 +3,7 @@ import './components/Component.css';
 import { Routes, Route } from 'react-router-dom';
 
 // components
-import About from './components/About';
+import About from './components/About/About';
 import NavBar from './components/Nav';
 import InBars from './components/InBars';
 import OutBars from './components/OutBars';

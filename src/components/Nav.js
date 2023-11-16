@@ -25,7 +25,7 @@ export default function NavBar() {
                   <Link to="/" onClick={(e) => handleClick(e)}>Home</Link>
                </li>
                <li>
-                  <Link to="/about" onClick={(e) => handleClick(e)}>About</Link>
+                  <Link to="/about" onClick={(e) => handleClick(e)}>Our Work</Link>
                </li>
                <li>
                   <Link to="/link" onClick={(e) => handleClick(e)}>Start Now</Link>

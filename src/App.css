@@ -11,6 +11,7 @@ body {
   right: 0;
   bottom: 0;
   pointer-events: none;
+  z-index: 10;
 }
 
 .bar {
@@ -23,6 +24,7 @@ body {
   animation-fill-mode: forwards;
   transform: translateX(-100%);
   animation-play-state: paused;
+  z-index: 10;
 }
 
 @keyframes tend {
