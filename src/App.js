@@ -8,7 +8,7 @@ import NavBar from './components/Nav';
 import InBars from './components/InBars';
 import OutBars from './components/OutBars';
 import Home from './components/Home';
-import Link from './components/Link'
+import Process from './components/Process/Process'
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/link" element={<Link />} />
+        <Route path="/process" element={<Process />} />
       </Routes>
       <InBars/>
       <OutBars/>
