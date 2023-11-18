@@ -61,14 +61,14 @@ ul {
 
 /* Style the navigation bar */
 nav {
-  background-color: #333; /* Background color */
+  z-index: 10;
 }
 
 /* Style the navigation list */
 nav ul {
   display: flex; /* Display the list items horizontally */
   justify-content: space-around; /* Distribute items evenly */
-  padding: 0;
+  padding: 5px;
   margin: 0;
 }
 
@@ -81,11 +81,14 @@ nav li {
 nav a {
   color: white; /* Link text color */
   text-decoration: none; /* Remove underline */
+  padding: 10px;
 }
 
 /* Change link color on hover */
 nav a:hover {
-  color: #ff9900;
+  color: black;
+  background: #f0f0f1; /* Base grey color */
+  border-radius: 15px;
 }
 
 .motion {
@@ -157,7 +160,12 @@ nav a:hover {
 }
 
 .title {
+  position: absolute;
   text-align: center;
+  font-size: 150px;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 1;
 }
 
 .filler {
