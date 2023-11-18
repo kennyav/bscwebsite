@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import MultiLayerParallax from "./Process/MultiLayerParallax"
 
 // components
 import Dot from './Dot'
@@ -20,12 +21,13 @@ export default function Home() {
 
   return (
     <>
-      <h1 className='title'>BlockSmith Consulting, LLC</h1>
+      <MultiLayerParallax />
+      {/* <h1 className='title'>BlockSmith Consulting, LLC</h1>
       <div className='dot-container'>
         {Array.from({ length: 240 }, (_, i) => (
           <Dot key={i} mousePos={mousePos}></Dot>
         ))}
-      </div>
+      </div> */}
     </>
   )
 }

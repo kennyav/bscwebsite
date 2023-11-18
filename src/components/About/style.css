@@ -1,9 +1,3 @@
-/* * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-} */
-
 .body {
    height: 100vh;
    display: grid;
@@ -65,14 +59,13 @@ a {
    top: 20rem;
    left: 2rem;
    transform: translateY(-50%);
-   font: 400 0.85rem helvetica,sans-serif;
+   /* font: 400 0.85rem helvetica,sans-serif; */
    color: white;
-   text-shadow: 0 3px 8px rgba(0,0,0,0.5);
+   /* text-shadow: 0 3px 8px rgba(0,0,0,0.5); */
    opacity: 0;
    display: none;
 
-   & .title {
-      font-family: 'arial-black';
+   & h2 {
       text-transform: uppercase;
    }
 
@@ -90,6 +83,7 @@ a {
       border-radius: 0.25rem;
       padding: 0.75rem;
       cursor: pointer;
+      border-radius: 15px;
    }
 }
 

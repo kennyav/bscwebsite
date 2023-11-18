@@ -15,7 +15,7 @@ body {
 }
 
 .bar {
-  height: 20%;
+  height: 7.75%;
   width: 100%;
   background-color: white;
   animation-name: tend;
@@ -36,7 +36,7 @@ body {
   }
 }
 
-.bar:nth-child(2){
+/* .bar:nth-child(2){
   animation-delay: 100ms;
 }
 
@@ -50,7 +50,7 @@ body {
 
 .bar:nth-child(5){
   animation-delay: 400ms;
-}
+} */
 
 /* Reset default margin and padding on the list */
 ul {
@@ -162,7 +162,7 @@ nav a:hover {
 .title {
   position: absolute;
   text-align: center;
-  font-size: 150px;
+  font-size: 100px;
   text-transform: uppercase;
   font-weight: bold;
   z-index: 1;
