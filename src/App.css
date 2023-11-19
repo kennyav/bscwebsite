@@ -168,6 +168,20 @@ nav a:hover {
   z-index: 1;
 }
 
+/* For Mobile */
+@media screen and (max-width: 540px) {
+  .title {
+    font-size: 50px;
+  }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .title {
+      width: 75px;
+  }
+}
+
 .filler {
   color: blue;
   padding: 50;
