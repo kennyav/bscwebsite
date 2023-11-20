@@ -15,7 +15,7 @@ body {
 }
 
 .bar {
-  height: 7.75%;
+  height: 9.2%;
   width: 100%;
   background-color: white;
   animation-name: tend;
@@ -68,7 +68,7 @@ nav {
 nav ul {
   display: flex; /* Display the list items horizontally */
   justify-content: space-around; /* Distribute items evenly */
-  padding: 5px;
+  padding: 10px;
   margin: 0;
 }
 

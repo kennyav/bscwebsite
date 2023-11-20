@@ -27,3 +27,17 @@
    inset: 0px;
    z-index: 20;
 }
+
+/* Media query for tablet screens */
+@media (max-width: 768px) {
+   .parallax-text {
+     font-size: 60px; /* Adjust font size for tablets */
+   }
+ }
+ 
+ /* Media query for mobile screens */
+ @media (max-width: 480px) {
+   .parallax-text {
+     font-size: 40px; /* Adjust font size for mobile */
+   }
+ }

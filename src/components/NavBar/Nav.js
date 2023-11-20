@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './style.css'
 
 export default function NavBar() {
 
@@ -19,6 +20,7 @@ export default function NavBar() {
    return (
       <nav>
          <div>
+            <img src="/blocksmithdesign.png" alt="Company Logo" className="logo" />
             {/* nav */}
             <ul>
                <li>

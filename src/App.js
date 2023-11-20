@@ -4,11 +4,12 @@ import { Routes, Route } from 'react-router-dom';
 
 // components
 import About from './components/About/About';
-import NavBar from './components/Nav';
+import NavBar from './components/NavBar/Nav';
 import InBars from './components/InBars';
 import OutBars from './components/OutBars';
 import Home from './components/Home';
 import Process from './components/Process/Process'
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       </Routes>
       <InBars/>
       <OutBars/>
+      <Footer/>
     </body>
   );
 }
