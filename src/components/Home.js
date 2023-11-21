@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <>
-      <MultiLayerParallax />
+      <MultiLayerParallax imageFull={`url(/image-full.png)`} imageTop={`url(/image-top.png)`} height={100} title={"Welcome"}/>
       {/* <h1 className='title'>BlockSmith Consulting, LLC</h1>
       <div className='dot-container'>
         {Array.from({ length: 240 }, (_, i) => (

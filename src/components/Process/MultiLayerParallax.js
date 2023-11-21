@@ -3,7 +3,7 @@ import './style.css'
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 
-export default function MultiLayerParallax() {
+export default function MultiLayerParallax(props) {
   const ref = useRef(null);
   const {scrollYProgress} = useScroll({
     target: ref,
@@ -14,14 +14,14 @@ export default function MultiLayerParallax() {
   const textY = useTransform(scrollYProgress, [0,1], ['0%', '200%']);
 
   return (
-    <div ref={ref} className='parallax-container'>
+    <div ref={ref} className='parallax-container'  style={{ height: `${props.height}vh` }}>
       <motion.h1 
         style={{y: textY}}
-        className='parallax-text'>Welcome</motion.h1>
+        className='parallax-text'>{props.title}</motion.h1>
       <motion.div
         className='parallax-image-full'
         style={{
-          backgroundImage: `url(/image-full.png)`,
+          backgroundImage: props.imageFull,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
           y: backgroundY,
@@ -29,7 +29,7 @@ export default function MultiLayerParallax() {
       <div
         className='parallax-image-bottom'
         style={{
-          backgroundImage: `url(/image-bottom.png)`,
+          backgroundImage: props.imageTop,
           backgroundPosition: "bottom",
           backgroundSize: "cover"
         }} />

@@ -4,6 +4,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bartender {
   position: absolute;
   top: 0;
@@ -62,6 +66,7 @@ ul {
 /* Style the navigation bar */
 nav {
   z-index: 10;
+  background: black;
 }
 
 /* Style the navigation list */

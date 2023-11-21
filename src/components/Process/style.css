@@ -1,43 +1,88 @@
+body {
+  background: linear-gradient(to bottom, #B0AFB4, #4F4F5B);
+}
+
 .parallax-container {
-   position: relative;
-   display: grid;
-   width: 100%;
-   height: 100vh;
-   overflow: hidden;
-   place-items: center;
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  place-items: center;
 }
 
 .parallax-text {
-   position: relative;
-   font-weight: bold;
-   color: white;
-   font-size: 100px;
-   z-index: 10;
-   margin-top: -20px;
+  position: relative;
+  font-weight: bold;
+  color: #f0f0f1;
+  font-size: 100px;
+  z-index: 10;
+  margin-top: -20px;
 }
 
 .parallax-image-full {
-   position: absolute;
-   inset: 0px;
-   z-index: 0;
+  position: absolute;
+  inset: 0px;
+  z-index: 0;
 }
 
 .parallax-image-bottom {
-   position: absolute;
-   inset: 0px;
-   z-index: 20;
+  position: absolute;
+  inset: 0px;
+  z-index: 20;
 }
 
 /* Media query for tablet screens */
 @media (max-width: 768px) {
-   .parallax-text {
-     font-size: 80px; /* Adjust font size for tablets */
-   }
- }
- 
- /* Media query for mobile screens */
- @media (max-width: 480px) {
-   .parallax-text {
-     font-size: 60px; /* Adjust font size for mobile */
-   }
- }
+  .parallax-text {
+    font-size: 80px; /* Adjust font size for tablets */
+  }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 480px) {
+  .parallax-text {
+    font-size: 60px; /* Adjust font size for mobile */
+  }
+}
+
+
+.process-step {
+  position: relative;
+  width: 100%;
+  height: auto; /* 100% of the viewport height */
+}
+
+.process-step p {
+  text-align: justify;
+  color: #f0f0f1;
+  font-weight: semi-bold;
+  margin: 15px;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.process-step h1 {
+  font-weight: bold;
+  margin: 9px;
+  color: white;
+  font-size: 100px;
+}
+
+/* Media query for tablet screens */
+@media (max-width: 768px) {
+  .process-step h1 {
+    font-size: 60px; /* Adjust font size for tablets */
+  }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 480px) {
+  .process-step h1{
+    font-size: 50px; /* Adjust font size for mobile */
+  }
+}

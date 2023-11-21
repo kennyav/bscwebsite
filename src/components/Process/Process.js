@@ -1,19 +1,63 @@
 import React from 'react'
-import MultiLayerParallax from './MultiLayerParallax'
+import './style.css';
+import { ArrowDownCircle, ArrowUpCircle } from 'react-ionicons'
+import MultiLayerParallax from './MultiLayerParallax';
 
 export default function Process() {
    return (
       <div>
-         <MultiLayerParallax />
-         <p>
-         Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.
-         </p>
-         <p>
-         Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.
-         </p>
-         <p>
-         Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.
-         </p>
+         <div className="process-step" id={"design"}>
+            <h1>Design</h1>
+            <p>- In-depth analysis of client requirements and objectives.</p>
+            <p>- Collaboration with clients to understand their vision and goals.</p>
+            <p>- Wireframing and prototyping to visualize the structure and layout.</p>
+            <p>- Incorporation of design principles and best practices.</p>
+            <p>- Iterative feedback loops with clients for refinement.</p>
+            <p> - Creation of a comprehensive design that aligns with the project's objectives.</p>
+            <a className="arrow" href='#implementation'>
+               <ArrowDownCircle
+                  color={'white'}
+                  height="30px"
+                  width="30px"
+               />
+            </a>
+         </div>
+         <MultiLayerParallax imageFull={`url(/image-full-city.png)`} imageTop={`url(/image-top-city.png)`} height={200} title={":)"} />
+         <div className="process-step" id={"implementation"}>
+            <h1>Implementation</h1>
+            <p>Proficient use of web development languages (HTML, CSS, JavaScript).
+               Building user-friendly interfaces that prioritize usability.
+               Integration of design elements into functional code.
+               Development of responsive and scalable solutions.
+               Continuous testing and debugging during the coding process.
+               Adherence to coding standards and best practices.
+               Collaboration with clients to ensure the implementation meets expectations.</p>
+            <a className="arrow" href='#user-testing'>
+               <ArrowDownCircle
+                  color={'white'}
+                  height="30px"
+                  width="30px"
+               />
+            </a>
+         </div>
+         <MultiLayerParallax imageFull={`url(/image-full-city.png)`} imageTop={`url(/image-top-city.png)`} height={200} title={":("} />
+         <div className="process-step" id={"user-testing"}>
+            <h1>User Testing</h1>
+            <a className="arrow" href='#design'>
+               <ArrowUpCircle
+                  color={'white'}
+                  height="30px"
+                  width="30px"
+               />
+            </a>
+            <p>Comprehensive testing to identify potential issues and bugs.
+               Inclusion of real users in the testing process.
+               Evaluation of the user experience and interface functionality.
+               Collection of feedback and observations from users.
+               Iterative refinement based on user feedback.
+               Focus on usability, accessibility, and overall user satisfaction.
+               Final testing to ensure the software meets quality standards before deployment.</p>
+         </div>
       </div>
    )
 }
