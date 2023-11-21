@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom, #B0AFB4, #4F4F5B);
+  background: linear-gradient(to bottom, #B0AFB4, #A68360);
 }
 
 .parallax-container {
@@ -54,21 +54,29 @@ body {
 }
 
 .process-step p {
-  text-align: justify;
-  color: #f0f0f1;
-  font-weight: semi-bold;
+  background-color: #f0f0f1;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-weight: 400;
   margin: 15px;
 }
 
 .arrow {
+  width: auto;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
 }
 
+
 .process-step h1 {
+  display: flex;
+  justify-content: center;
   font-weight: bold;
-  margin: 9px;
   color: white;
   font-size: 100px;
 }
