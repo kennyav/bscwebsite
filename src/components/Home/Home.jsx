@@ -2,8 +2,8 @@ import React from 'react'
 import './style.css'
 
 // components
-import MissionStatement from '../Mission/MissionStatement';
-
+import MissionStatement from '../HomeComponents/MissionStatement';
+import ProcessInfo from '../HomeComponents/ProcessInfo';
 
 export default function Home() {
   const containerStyle = {
@@ -50,6 +50,7 @@ export default function Home() {
         ></img>
       </div>
       <MissionStatement />
+      <ProcessInfo />
     </>
   )
 }
