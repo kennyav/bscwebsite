@@ -1,6 +1,5 @@
 import React from 'react'
 import './style.css';
-import { ArrowDownCircle, ArrowUpCircle } from 'react-ionicons'
 import MultiLayerParallax from './MultiLayerParallax';
 
 export default function Process() {
@@ -16,11 +15,11 @@ export default function Process() {
                Creation of a comprehensive design that aligns with the project's objectives.</p>
             <div className='arrow'>
                <a href='#implementation'>
-                  <ArrowDownCircle
+                  {/* <ArrowDownCircle
                      color={'white'}
                      height="30px"
                      width="30px"
-                  />
+                  /> */}
                </a>
             </div>
          </div>
@@ -36,11 +35,11 @@ export default function Process() {
                Collaboration with clients to ensure the implementation meets expectations.</p>
             <div className='arrow'>
                <a href='#user-testing'>
-                  <ArrowDownCircle
+                  {/* <ArrowDownCircle
                      color={'white'}
                      height="30px"
                      width="30px"
-                  />
+                  /> */}
                </a>
             </div>
          </div>
@@ -48,11 +47,11 @@ export default function Process() {
          <div className="process-step" id={"user-testing"}>
             <div className='arrow'>
                <a href='#design'>
-                  <ArrowUpCircle
+                  {/* <ArrowUpCircle
                      color={'white'}
                      height="30px"
                      width="30px"
-                  />
+                  /> */}
                </a>
             </div>
             <p>Comprehensive testing to identify potential issues and bugs.

@@ -15,9 +15,10 @@ body {
   position: relative;
   font-weight: bold;
   color: #f0f0f1;
-  font-size: 100px;
   z-index: 10;
-  margin-top: -20px;
+  margin-top: -200px;
+  padding: 10px;
+  text-align: center;
 }
 
 .parallax-image-full {

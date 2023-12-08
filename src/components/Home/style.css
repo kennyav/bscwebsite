@@ -1,0 +1,86 @@
+.cta-buttons {
+   display: flex;
+   position: justify-between;
+}
+
+.title {
+  position: absolute;
+  padding: '10';
+  text-align: left;
+  font-size: 85px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .title {
+      width: 50px;
+  }
+}
+
+/* .cta-buttons button {
+   border-radius: 15px;
+   background-color: white;
+   padding: 10px;
+   cursor: pointer;
+}
+
+.cta-buttons button:hover {
+   background-color: #f0f0f1;
+} */
+
+/* CSS */
+.button-68 {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 15px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-68:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-68:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-68:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}

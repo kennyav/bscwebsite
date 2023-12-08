@@ -16,7 +16,9 @@ export default function MultiLayerParallax(props) {
   return (
     <div ref={ref} className='parallax-container'  style={{ height: `${props.height}vh` }}>
       <motion.h1 
-        style={{y: textY}}
+        style={{
+          y: textY,
+          fontSize: props.font || '100px' }}
         className='parallax-text'>{props.title}</motion.h1>
       <motion.div
         className='parallax-image-full'
