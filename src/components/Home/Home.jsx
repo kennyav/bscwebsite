@@ -4,6 +4,8 @@ import './style.css'
 // components
 import MissionStatement from '../HomeComponents/MissionStatement';
 import ProcessInfo from '../HomeComponents/ProcessInfo';
+import Examples from '../HomeComponents/Examples';
+
 
 export default function Home() {
   const containerStyle = {
@@ -51,6 +53,7 @@ export default function Home() {
       </div>
       <MissionStatement />
       <ProcessInfo />
+      <Examples />
     </>
   )
 }
