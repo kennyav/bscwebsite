@@ -10,6 +10,7 @@ import OutBars from './components/OutBars';
 import Home from './components/Home/Home';
 import Process from './components/Process/Process'
 import Footer from './components/Footer/Footer';
+import Privacy from './components/Privacy';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/process" element={<Process />} />
+        <Route path="/privacy" element={<Privacy />} />
       </Routes>
       <InBars/>
       <OutBars/>

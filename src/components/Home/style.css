@@ -100,7 +100,7 @@
   transition-duration: .35s;
 }
 
-.button-68:active, .button-69:hover {
+.button-68:active, .button-69:active {
   transform: translateY(2px);
   transition-duration: .35s;
 }
